@@ -57,7 +57,7 @@ return (0);
  * Return: Casted value of num
  */
 
-long int convert_size_number(long int num, int si
+long int convert_size_number(long int num, int size)
 {
 if (size == S_LONG)
 return (num);
